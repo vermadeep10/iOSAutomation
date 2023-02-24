@@ -1,3 +1,5 @@
+package TestCases;
+
 import BaseClass.GetIOSDriver;
 import PageObjects.Alert;
 import PageObjects.FollowingPage;

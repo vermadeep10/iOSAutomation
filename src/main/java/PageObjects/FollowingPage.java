@@ -12,8 +12,11 @@ public class FollowingPage extends GetIOSDriver {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    @iOSXCUITFindBy(iOSClassChain = "**/XCUIElementTypeNavigationBar[`name == \"Following\"`]")
+    @iOSXCUITFindBy(iOSClassChain = "**/XCUIElementTypeStaticText[`label == \"Following\"`]")
     private WebElement followingtext;
+
+    @iOSXCUITFindBy(accessibility = "Edit")
+    private WebElement edit;
 
     @iOSXCUITFindBy(accessibility = "Special Coverage")
     private WebElement specialcoveragsection;
@@ -46,7 +49,12 @@ public class FollowingPage extends GetIOSDriver {
     }
 
     public String getSpecialCoveragSectionText() {
-        return specialcoveragsection.getText();
+        if (specialcoveragsection.getText().equals("Expanded")) {
+            String send = "Special Coverage";
+            return send;
+        } else {
+            return specialcoveragsection.getText();
+        }
     }
 
     public String getChannelsAndTopicsSectionText() {
@@ -64,8 +72,6 @@ public class FollowingPage extends GetIOSDriver {
     public void tapBlackHistoryMonth() {
         blackhistorymonth.click();
     }
-
-
 
 
 }

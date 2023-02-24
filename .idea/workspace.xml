@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fcc0390-afa3-45ba-8a31-879319a31ccf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BaseClass/GetIOSDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Alert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/FollowingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/TabBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/TodayPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/Scrolling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FollowingTest.java" afterDir="false" />
+    <list default="true" id="6fcc0390-afa3-45ba-8a31-879319a31ccf" name="Changes" comment="first test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/AudioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/AudioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/FollowingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/FollowingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Scrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Scrolling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FollowingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/FollowingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +60,42 @@
       <recent name="$PROJECT_DIR$/src/test/java/Application" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FollowingTest">
+  <component name="RunManager" selected="TestNG.AudioTest.getLawText">
+    <configuration name="AudioTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="iOSAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.AudioTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AudioTest.getLawText" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="iOSAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.AudioTest" />
+      <option name="METHOD_NAME" value="getLawText" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Basics" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="iOSAutomation" />
       <extension name="coverage">
@@ -105,7 +133,7 @@
     <configuration name="FollowingTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="iOSAutomation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FollowingTest" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.FollowingTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -132,10 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AudioTest.getLawText" />
+        <item itemvalue="TestNG.AudioTest" />
         <item itemvalue="TestNG.FollowingTest" />
         <item itemvalue="TestNG.Basics" />
         <item itemvalue="TestNG.wikipoeia" />
-        <item itemvalue="TestNG.Basics" />
       </list>
     </recent_temporary>
   </component>
@@ -156,11 +185,25 @@
       <workItem from="1676897203618" duration="895000" />
       <workItem from="1677050945884" duration="199000" />
       <workItem from="1677062413331" duration="4387000" />
-      <workItem from="1677068183831" duration="1363000" />
+      <workItem from="1677068183831" duration="1653000" />
+      <workItem from="1677138284067" duration="5077000" />
+      <workItem from="1677239064566" duration="1966000" />
     </task>
+    <task id="LOCAL-00001" summary="first test">
+      <created>1677069806171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677069806171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first test" />
+    <option name="LAST_COMMIT_MESSAGE" value="first test" />
   </component>
 </project>
